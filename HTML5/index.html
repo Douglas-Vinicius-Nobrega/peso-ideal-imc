@@ -10,15 +10,63 @@
 </head>
 <body>
 
-    <header>
+    <header> <!-- Cabeçalho -->
         <h1>
             Peso ideal para a altura (com calculadora online)
         </h1>
     </header>
 
-    <main>
+    <main> <!-- Conteúdo principal -->
+        <article> <!-- Article -->
+            <h2>
+                Sobre o assunto
+            </h2>
 
+            <p>
+                O peso ideal é o peso que uma pessoa deve ter para a sua altura, sendo considerado um intervalo de peso saudável e que permite reduzir acentuadamente o risco de diversos problemas de saúde, como obesidade, hipertensão e diabetes ou até mesmo a desnutrição.
+            </p>
+            <p>
+                Para calcular o peso ideal no adulto está aconselhado o uso do índice de massa corporal, ou IMC, que leva em consideração principalmente a altura. Já no caso das crianças, a fórmula utilizada para determinar o peso ideal varia de acordo com a idade e o sexo. Veja como saber o peso ideal para meninos e o peso ideal para meninas.
+            </p>
+            <p>
+                É importante mencionar que o IMC não leva em consideração a quantidade de gordura, de músculo ou de água que a pessoa apresenta, sendo apenas uma referência do peso para a altura da pessoa. Por isso, pessoas que possuem muita massa muscular ou retenção de líquidos, não devem avaliar o peso apenas através do IMC, sendo recomendado consultar um nutricionista para fazer uma avaliação mais detalhada.
+            </p>
+
+            <h2>
+                Calculadora de peso ideal para adultos
+            </h2>
+
+            <p>
+                Para calcular o peso ideal em adultos, utilize a nossa calculadora colocando os seus dados a seguir:
+            </p>
+
+            <p class="nome">
+                Masculino
+                <input type="radio" name="Homem" id="inHomem">
+                Feminino
+                <input type="radio" name="Feminino" id="inFeminino">
+            </p>
+
+            <p class="idade">
+                Idade:
+                <input type="text" id="inIdade">
+            </p>
+
+            <p class="altura">
+                Altura:
+                <input type="text" id="inAltura">
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="btCalcular">
+            </p>
+            <script src="JS/imc.js"></script>
+
+        </article>
     </main>
+
+    <footer> <!-- Rodapé -->
+        <p> Site feito por <a href="https://github.com/Douug019" target="_blank"><strong>Douglas Nobrega</strong></a></p>
+    </footer>
 
     
 
